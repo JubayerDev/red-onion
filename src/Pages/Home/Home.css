@@ -4,6 +4,7 @@
     height: 75vh;
     background-position: -72px;
     background-size: 110%;
+    margin-bottom: 80px;
 }
 .home-childrens{
     display: flex;
@@ -37,5 +38,23 @@
     right: 440px;
     top: 231px;
     color: white;
+    font-weight: 500;
+}
+
+
+/* FOOD CONTAINER STYLES */
+.food-container{
+    margin-bottom: 50px;
+}
+.food-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.food-options a{
+    margin-right:35px;
+    text-decoration: none;
+    color: black;
     font-weight: 500;
 }
