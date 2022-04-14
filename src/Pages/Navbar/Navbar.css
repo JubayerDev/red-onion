@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0 70px 0 70px;
+}
+.logo img{
+    width: 150px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+.signup-btn{
+    background-color: #F91944;
+    padding: 8.5px 20px;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-weight: 500;
+}
