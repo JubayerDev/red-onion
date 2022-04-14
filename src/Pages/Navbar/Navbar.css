@@ -14,6 +14,9 @@ nav{
     justify-content: space-between;
     width: 200px;
 }
+.nav-items svg{
+    cursor: pointer;
+}
 .nav-items a{
     text-decoration: none;
     color: black;
@@ -27,4 +30,5 @@ nav{
     border-radius: 16px;
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
