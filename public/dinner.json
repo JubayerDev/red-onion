@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Salmon with Grapefruit and Lentil Salad",
+      "desc": "How we dream about future",
+      "img": "https://i.ibb.co/Q6q9cDj/dinner1.png",
+      "price": 9.99
+    },
+    {
+      "id": 2,
+      "name": "Lemony Salmon Piccata",
+      "desc": "How we dream about future",
+      "img": "https://i.ibb.co/bmkTfrL/dinner2.png",
+      "price": 10.99
+    },
+    {
+      "id": 3,
+      "name": "Pork Tenderloin with Quinoa Pilaf",
+      "desc": "How we dream about future",
+      "img": "https://i.ibb.co/fGHwx5H/dinner3.png",
+      "price": 12.99
+    },
+    {
+      "id": 4,
+      "name": "French Fries with Cheese",
+      "desc": "How we dream about future",
+      "img": "https://i.ibb.co/N3JndwC/dinner4.png",
+      "price": 8.99
+    },
+    {
+      "id": 5,
+      "name": "Garlic Butter Baked Salmon",
+      "desc": "How we dream about future",
+      "img": "https://i.ibb.co/Wg8djFG/dinner5.png",
+      "price": 6.99
+    },
+    {
+      "id": 6,
+      "name": "Baked Chicken",
+      "desc": "How we dream about future",
+      "img": "https://i.ibb.co/BzdPjQH/dinner6.png",
+      "price": 9.99
+    }
+  ]

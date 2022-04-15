@@ -15,7 +15,9 @@ const Navbar = () => {
             <div className='nav-items'>
                 <FiShoppingCart size={20} />
                 <Link to='/login'>Login</Link>
-                <button className="signup-btn">Sign up</button>
+                <Link to='/signup'>
+                    <button className="signup-btn">Sign up</button>
+                </Link>
             </div>
         </nav>
     );
