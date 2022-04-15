@@ -1,6 +1,16 @@
 .signup-container{
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+.signup-container p{
+    text-align: center;
+    font-weight: 600;
+    color: #F91944;
+}
+.signup-container a{
+    text-decoration: none;
+    color: black;
 }
 .signup-logo{
     display: flex;
@@ -34,4 +44,32 @@
     font-weight: 500;
     cursor: pointer;
     border-radius: 10px;
+}
+.or__line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or__line p{
+    padding: 0 10px 0 10px;
+}
+.social-btns button{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: transparent;
+    outline: 0;
+    border: 1px solid #d4c8c8;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.social-btns span{
+    margin-right: 80px;
 }
