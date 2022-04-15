@@ -10,7 +10,7 @@ const Breakfast = () => {
             .then(data => setBreakfasts(data))
     },[])
     return (
-        <div className='breakfast-container'>
+        <div className='foods-container'>
             {
                 breakfasts.map(breakfast => <SingleBreakfast key={breakfast.id} breakfast={ breakfast}/>)
             }

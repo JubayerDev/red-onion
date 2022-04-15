@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Breakfast from '../Breakfast/Breakfast';
+import { Outlet } from 'react-router-dom';
+import CustomLink from '../CustomLink/Customlink';
 import './Home.css';
 
 const Home = () => {
@@ -14,14 +14,12 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="food-container">
-                <div className="food-options">
-                    <Link to='/breakfast'>Breakfast</Link>
-                    <Link to='/lunch'>Lunch</Link>
-                    <Link to='/dinner'>Dinner</Link>
-                </div>
-                <Breakfast />
+            <div className="food-options">
+                <CustomLink to='/breakfast'>Breakfast</CustomLink>
+                <CustomLink to='/lunch'>Lunch</CustomLink>
+                <CustomLink to='/dinner'>Dinner</CustomLink>
             </div>
+            <Outlet />
         </div>
     );
 };
