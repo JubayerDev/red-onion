@@ -1,0 +1,21 @@
+.food_form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 60px auto;
+}
+.food_form input{
+    width: 500px;
+    height: 30px;
+    outline: none;
+    margin-bottom: 15px;
+}
+.food_form input[type='submit']{
+    background-color: #EC5990;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+}

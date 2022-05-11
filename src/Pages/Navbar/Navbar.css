@@ -12,7 +12,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 200px;
+    width: 300px;
 }
 .nav-items svg{
     cursor: pointer;
@@ -31,4 +31,9 @@ nav{
     color: white;
     font-weight: 500;
     cursor: pointer;
+}
+.userPhoto{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }

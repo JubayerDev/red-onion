@@ -1,12 +1,9 @@
-import React, { useContext } from 'react';
-import { Outlet, useParams } from 'react-router-dom';
-import { IdContext } from '../Breakfast/SingleBreakfast';
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 
 const BreakfastDetail = () => {
-    const id = useContext(IdContext)
-    console.log(id);
-    const params = useParams();
+    
     return (
         <div>
             <h1>Breakfast</h1>

@@ -5,7 +5,7 @@ import SingleBreakfast from './SingleBreakfast';
 const Breakfast = () => {
     const [breakfasts, setBreakfasts] = useState([]);
     useEffect(() => {
-        fetch('breakfast.json')
+        fetch('http://localhost:5000/service')
             .then(res => res.json())
             .then(data => setBreakfasts(data))
     },[])
